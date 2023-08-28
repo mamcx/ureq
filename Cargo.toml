@@ -35,7 +35,7 @@ socks = { version = "0.3", optional = true }
 serde = { version = "1", optional = true }
 serde_json = { version = ">=1.0.97", optional = true }
 encoding_rs = { version = "0.8", optional = true }
-cookie_store = { version = "0.20", optional = true, default-features = false, features = ["preserve_order"] }
+cookie_store = { git = "https://github.com/pfernie/cookie_store.git", rev ="6006e02",optional = true, default-features = false, features = ["preserve_order"]  }
 log = "0.4"
 webpki = { package = "rustls-webpki", version = "0.101", optional = true }
 webpki-roots = { version = "0.25", optional = true }
